@@ -1,0 +1,780 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 30px 5%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #f1f0f0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover {
+    color: #fffefe;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .btn-contato button {
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    box-shadow: 0 0 8px #280026;
+}
+
+.logo {
+    width: 1500px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 4%;
+    align-self: flex-start; 
+}
+
+section.topo-do-site.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #f1f0f0;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 span {
+    color: #780fb9;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #f1f0f0;
+    margin: 40px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn-contato {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 4%;
+    align-self: flex-start;
+    max-width: 800px; /* Defina a largura máxima do contêiner para ajustar o texto */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+.topo-do-site h1 {
+    color: #f1f0f0;
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #f1f0f0;
+    font-size: 16px;
+    margin: 20px 0;
+    text-align: center; 
+}
+
+/* Adicione estes estilos ao seu arquivo style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu-desktop ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-desktop li {
+    margin-right: 20px;
+}
+
+.btn-contato button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #780fb9;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0 0 8px #280026;
+}
+
+.topo-do-site {
+    padding: 40px 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-topo-site {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.img-topo-site img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Adicione estes estilos ao seu arquivo style.css */
+
+/* ... (outros estilos) */
+
+.btn-contato {
+    text-align: center;
+    margin-top: 800x;
+}
+
+.btn-contato button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0 0 8px #280026;
+}
+
+/* Adicione estes estilos ao seu arquivo style.css */
+
+/* ... (outros estilos) */
+
+.centralizar-botao-abaixo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-contato-abaixo button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-contato-abaixo button:hover {
+    box-shadow: 0 0 8px #280026;
+}
+
+.txt-topo-site h1 {
+    text-transform: uppercase;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+.img-topo-site {
+    max-width: 8000%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-left: 50px; /* Ajuste esta margem conforme necessário */
+}
+
+/* MENU MOBILE */
+.btn-abrir-menu {
+    color: #780fb9;
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px; /* Ajuste conforme necessário */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-abrir-menu i {
+    margin-right: 10px;
+}
+
+.menu-mobile {
+    right: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: rgba(17, 16, 16, 0.281);
+    transition: .2s;
+}
+
+.menu-mobile.abrir-menu {
+    width: 100%;
+    left: 40%; /* Alterado de -100% para 0 */
+    right: auto;
+    transition: .2s;
+}
+
+
+.menu-mobile.abrir-menu ~ .overlay-menu {
+    display: block;
+}
+
+.overlay-menu {
+    display: none;
+    background-color: #00000094;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 88888;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+    margin-top: 10px; /* Ajuste conforme necessário */
+}
+
+.menu-mobile nav ul li {
+    display: block;
+    padding: 20px 4%;
+}
+
+.menu-mobile nav ul li a {
+    color: rgb(240, 240, 234);
+    font-size: 10px; /* Ajuste o tamanho desejado */
+    font-weight: 300;
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.menu-mobile nav ul li a:hover {
+    background-color: #006400; /* Substitua pelo código de cor desejado */
+    color: #9b9494; /* Mantenha a cor do texto desejada */
+}
+
+
+/* Adicione uma regra de mídia para aplicar estilos apenas em dispositivos móveis */
+@media screen and (min-width: 1020px) {
+    .btn-abrir-menu, .menu-mobile, .overlay-menu {
+        display: none;
+    }
+
+    .menu-mobile.abrir-menu {
+        width: 100%; /* Ou defina uma largura específica em pixels */
+        left: -100%; /* Reposiciona à esquerda */
+    }
+
+    .menu-mobile.abrir-menu ~ .overlay-menu {
+        display: none;
+    }
+}
+
+
+
+
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: #f1f0f0;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid floralwhite;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #cab1c8; 
+}
+
+
+.especialidades-box i {
+    font-size: 70px;
+    color: #780fb9;
+}
+
+.especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px;
+}
+
+.img-sobre img {
+    max-width: 300px; /* Define a largura máxima como 100% do contêiner pai */
+    height: auto; /* Mantém a proporção da altura */
+}
+
+.img-sobre {
+    margin-left: auto;
+    margin-right: 900px; /* Adapte a margem conforme necessário para dar espaço entre a imagem e o texto */
+}
+
+/* ESTILO DO SOBRE */
+
+section.sobre {
+    padding: 100px 4%;
+    color: #cebbbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre .flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.sobre .txt-sobre {
+    text-align: center;
+    flex: 1;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre span {
+    color: #780fb9;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .img-sobre {
+    margin-right: 20px; /* Ajuste a margem conforme necessário */
+}
+
+.sobre .img-sobre img {
+    max-width: 50%;
+    height: auto;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #780fb9;
+    display: block;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    background-color: #780fb9;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 22px 0 8px; /* Ajuste aqui para mover mais para a direita */
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 0px fuchsia;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO PORTFÓLIO */
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #b1a7a7;
+}
+
+section.portfolio .flex {
+    gap: 80px;   
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-size: 100% 100%; /* Alteração aqui para cobrir totalmente o contêiner */
+    background-position: 0 0;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #eeeaea;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/*ESTILO DO FORMULÁRIO DE CONTATO*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #6b6b6b27;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: #f1f0f0;
+    font-size: 18px;
+    margin-bottom: 15px; 
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar input {
+    background-color: #6fbcfbb4; 
+    color: #060606; 
+    font-weight: 700;
+    cursor: pointer; 
+    transition: background-color .2s; /
+}
+
+form .btn-enviar input:hover {
+    background-color: #780fb9; 
+}
+
+
+/* ESTILO DO RODAPÉ */
+
+footer {
+    background-color: #eae7e7;
+    padding: 20px 4%;
+    box-shadow: 0 0 10px rgba(229, 225, 225, 0.5);
+    color: #f3deeb;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.developed-by {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff; /* Altera a cor para branco */
+}
+
+.btn-email {
+    background-color: #780fb9;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block; /* Garante que o botão apareça abaixo do texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Adiciona um contêiner para centralizar verticalmente */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* Adicione essas regras para ajustar para dispositivos móveis */
+@media screen and (max-width: 1020px) {
+    footer .flex {
+        flex-direction: column; /* Ajusta a direção do flex container para coluna */
+        align-items: center;
+    }
+
+    footer .btn-email {
+        margin-top: 20px; /* Ajuste conforme necessário */
+    }
+    
+    footer .developed-by {
+        margin-top: 10px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Ajuste adicional para centralizar Developed By */
+@media screen and (max-width: 1020px) {
+    footer .developed-by {
+        margin-top: 20px; /* Ajuste adicional para centralizar em dispositivos móveis */
+    }
+}
+
+/* Adicione esta regra para centralizar o texto "Desenvolvido por Viviane Rocha" */
+footer .developed-by {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Ajuste adicional para centralizar Developed By */
+@media screen and (max-width: 1020px) {
+    footer .developed-by {
+        margin-top: 20px; /* Ajuste adicional para centralizar em dispositivos móveis */
+    }
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    h2.titulo {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+    section.topo-do-site .flex {
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 200px;
+    }
+
+    /* ESPECIALIDADES*/
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /* SOBRE */
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre {
+        text-align: center; /* Centralizar o conteúdo dentro do contêiner */
+    }
+
+    .img-sobre img {
+        width: 300px !important; /* Ajuste o valor conforme necessário */
+    }
+
+    /* PORTFÓLIO */
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex {
+        gap: 60px;
+    }
+
+    /* Imagem Vivi Tech */
+    .interface img {
+        width: 150px; /* Ajuste o valor conforme necessário */
+    }
+}
+
