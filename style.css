@@ -388,6 +388,11 @@ h2.titulo span{
 
 
 
+/* Estilos padrão para telas maiores (desktops) */
+.btn-abrir-menu, .menu-mobile, .overlay-menu {
+    display: none;
+}
+
 /* Adicione uma regra de mídia para aplicar estilos apenas em dispositivos móveis */
 @media screen and (min-width: 1020px) {
     .btn-abrir-menu, .menu-mobile, .overlay-menu {
